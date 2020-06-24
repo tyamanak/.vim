@@ -38,37 +38,14 @@ filetype plugin indent on
 " this will conveniently prompt you to install them.
 NeoBundleCheck
 
-"Vim setting---------------------------------------------------------------
+"for edit------------------------------------------------------------------
 
 " ｊとｋの入力をESCキーにremap 
 inoremap jk <ESC>
-
-" シンタックスハイライトをONに
-syntax enable
+vnoremap jk <ESC> 
 
 " バッファやレジスタ内で使用する文字コードを設定
 set encoding=utf-8
-
-" カラースキーム設定
-colorscheme iceberg
-
-" カーソルラインを表示
-set cursorline
-
-" カーソルラインのトグル
-set cursorline!
-
-" 検索結果のハイライトをON
-set hlsearch
-
-" 検索時の大文字・小文字を区別しない
-set ignorecase
-
-" 検索時、大文字を入力した場合のみ、大文字小文字を区別
-set smartcase
-
-" 文字を入力する度に、その時点でのマッチしたテキストをハイライト
-set incsearch
 
 " C-X,C-Aを強制的に10進数認識させる
 set nrformats=
@@ -82,15 +59,49 @@ set smartindent
 " インデントのスペースの数
 set shiftwidth=4
 
-" 2つ以上タブがある場合、タブ表示ON
-set showtabline=2
-
-" ステータスライン表示
-set laststatus=2
-
 " 矩形選択をテキストがないところにも適用
 set virtualedit=block
 
 " コマンドライン補完
 set wildmenu
+
+" 括弧入力時の対応する括弧を表示
+set showmatch
+
+"for appearance------------------------------------------------------------
+
+" シンタックスハイライトをONに
+syntax enable
+
+" カラースキーム設定
+colorscheme iceberg
+
+" ダーク系のカラースキームを使う
+set background=dark
+
+" カーソルラインを表示
+set cursorline
+
+" タブ表示ON
+set showtabline=2
+
+" ステータスライン表示
+set laststatus=2
+
+" 行番号を表示
+set number
+
+"for search----------------------------------------------------------------
+
+" 検索結果のハイライトをON
+set hlsearch
+
+" 検索時の大文字・小文字を区別しない
+set ignorecase
+
+" 検索時、大文字を入力した場合のみ、大文字小文字を区別
+set smartcase
+
+" 文字を入力する度に、その時点でのマッチしたテキストをハイライト
+set incsearch
 
