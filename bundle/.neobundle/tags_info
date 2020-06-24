@@ -1,0 +1,5 @@
+iceberg.vim
+lightline.vim
+neobundle.vim
+vim-fugitive
+vim-gitgutter
