@@ -26,8 +26,13 @@ NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'airblade/vim-gitgutter'
 
+" lightlineのカラーをicebergに合うように
+NeoBundle 'popkirby/lightline-iceberg'
+
 " iceberg カラースキーム
 NeoBundle 'cocopon/iceberg.vim'
+
+let g:lightline = { 'colorscheme': 'iceberg' }
 
 call neobundle#end()
 

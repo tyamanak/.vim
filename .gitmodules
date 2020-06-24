@@ -10,3 +10,6 @@
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/lightline-iceberg"]
+	path = bundle/lightline-iceberg
+	url = https://github.com/popkirby/lightline-iceberg.git

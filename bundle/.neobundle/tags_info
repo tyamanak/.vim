@@ -1,4 +1,5 @@
 iceberg.vim
+lightline-iceberg
 lightline.vim
 neobundle.vim
 vim-fugitive
