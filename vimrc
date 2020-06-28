@@ -91,6 +91,7 @@ set cursorline
 set showtabline=2
 
 " タブ文字とスペースを可視化
+set list
 set listchars=tab:>-,space:-
 
 " ステータスライン表示
