@@ -51,6 +51,8 @@ NeoBundleCheck
 " ｊとｋの入力をESCキーにremap 
 inoremap jk <ESC>
 vnoremap jk <ESC> 
+snoremap jk <ESC> 
+cnoremap jk <ESC> 
 
 " バッファやレジスタ内で使用する文字コードを設定
 set encoding=utf-8
