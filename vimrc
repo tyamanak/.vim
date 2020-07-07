@@ -34,6 +34,9 @@ NeoBundle 'cocopon/iceberg.vim'
 
 let g:lightline = { 'colorscheme': 'iceberg' }
 
+" パーレンなどを扱いやすくするplugin
+NeoBundle 'surround.vim'
+
 call neobundle#end()
 
 " Required:
@@ -72,6 +75,9 @@ set wildmenu
 
 " 括弧入力時の対応する括弧を表示
 set showmatch
+
+" yankのクリップボード連携
+set clipboard=unnamed,autoselect
 
 "for appearance------------------------------------------------------------
 
@@ -113,4 +119,9 @@ set smartcase
 
 " 文字を入力する度に、その時点でのマッチしたテキストをハイライト
 set incsearch
+
+"for tab-------------------------------------------------------------------
+
+" タブの戻る操作をgrに変更
+nnoremap gr gT 
 

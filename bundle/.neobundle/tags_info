@@ -2,5 +2,6 @@ iceberg.vim
 lightline-iceberg
 lightline.vim
 neobundle.vim
+surround.vim
 vim-fugitive
 vim-gitgutter

@@ -13,3 +13,6 @@
 [submodule "bundle/lightline-iceberg"]
 	path = bundle/lightline-iceberg
 	url = https://github.com/popkirby/lightline-iceberg.git
+[submodule "bundle/surround.vim"]
+	path = bundle/surround.vim
+	url = https://tpope.io/vim/surround.git
