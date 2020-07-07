@@ -35,6 +35,10 @@ NeoBundle 'cocopon/iceberg.vim'
 let g:lightline = { 'colorscheme': 'iceberg' }
 
 " パーレンなどを扱いやすくするplugin
+" yss"でセンテンス全体をクオーテーションで囲む
+" ysiw"で単語をクオーテーションで囲む
+" cs"'でダブルクオーテーションをシングルクオーテーションに変更
+" ds"でダブルクオーテーションを削除
 NeoBundle 'surround.vim'
 
 call neobundle#end()
