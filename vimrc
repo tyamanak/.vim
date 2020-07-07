@@ -41,6 +41,9 @@ let g:lightline = { 'colorscheme': 'iceberg' }
 " ds"でダブルクオーテーションを削除
 NeoBundle 'surround.vim'
 
+" easy motion
+NeoBundle 'easymotion/vim-easymotion'
+
 call neobundle#end()
 
 " Required:
@@ -84,6 +87,9 @@ set showmatch
 
 " yankのクリップボード連携
 set clipboard=unnamed,autoselect
+
+"leader キーをSpaceに
+let mapleader = " "
 
 "for appearance------------------------------------------------------------
 
