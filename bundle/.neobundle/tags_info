@@ -1,8 +1,4 @@
 iceberg.vim
-lightline-iceberg
-lightline.vim
 neobundle.vim
 surround.vim
 vim-easymotion
-vim-fugitive
-vim-gitgutter

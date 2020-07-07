@@ -22,17 +22,14 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Note: You don't set neobundle setting in .gvimrc!
 
 " lightline ステータスバーの装飾
-NeoBundle 'itchyny/lightline.vim'
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'airblade/vim-gitgutter'
-
-" lightlineのカラーをicebergに合うように
-NeoBundle 'popkirby/lightline-iceberg'
+" NeoBundle 'itchyny/lightline.vim'
+" NeoBundle 'tpope/vim-fugitive'
+" NeoBundle 'airblade/vim-gitgutter'
 
 " iceberg カラースキーム
 NeoBundle 'cocopon/iceberg.vim'
 
-let g:lightline = { 'colorscheme': 'iceberg' }
+"let g:lightline = { 'colorscheme': 'iceberg' }
 
 " パーレンなどを扱いやすくするplugin
 " yss"でセンテンス全体をクオーテーションで囲む
@@ -96,11 +93,8 @@ let mapleader = " "
 " シンタックスハイライトをONに
 syntax enable
 
-" カラースキーム設定
-colorscheme iceberg
-
 " ダーク系のカラースキームを使う
-set background=dark
+" set background=dark
 
 " カーソルラインを表示
 set cursorline
@@ -146,3 +140,6 @@ set incsearch
 " タブの戻る操作をgrに変更
 nnoremap gr gT 
 
+" color設定----------------------------------------------------------------
+" カラースキーム設定
+colorscheme iceberg
