@@ -22,14 +22,14 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Note: You don't set neobundle setting in .gvimrc!
 
 " lightline ステータスバーの装飾
-" NeoBundle 'itchyny/lightline.vim'
-" NeoBundle 'tpope/vim-fugitive'
-" NeoBundle 'airblade/vim-gitgutter'
+NeoBundle 'itchyny/lightline.vim'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'airblade/vim-gitgutter'
 
 " iceberg カラースキーム
 NeoBundle 'cocopon/iceberg.vim'
 
-"let g:lightline = { 'colorscheme': 'iceberg' }
+let g:lightline = { 'colorscheme': 'iceberg' }
 
 " パーレンなどを扱いやすくするplugin
 " yss"でセンテンス全体をクオーテーションで囲む
@@ -150,3 +150,5 @@ nnoremap gr gT
 " color設定----------------------------------------------------------------
 " カラースキーム設定
 colorscheme iceberg
+set termguicolors
+set background=dark
