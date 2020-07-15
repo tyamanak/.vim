@@ -58,6 +58,10 @@ vnoremap jk <ESC>
 snoremap jk <ESC> 
 cnoremap jk <ESC> 
 
+" normalモードでsとxによる削除をヤンクしない
+nnoremap x "_x
+nnoremap s "_s
+
 " バッファやレジスタ内で使用する文字コードを設定
 set encoding=utf-8
 
@@ -125,6 +129,9 @@ endif
 
 " 検索結果のハイライトをON
 set hlsearch
+
+" esc二回で検索のハイライトを非表示
+nnoremap <ESC><ESC> :nohl<CR>
 
 " 検索時の大文字・小文字を区別しない
 set ignorecase
