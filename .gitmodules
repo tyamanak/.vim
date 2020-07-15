@@ -15,7 +15,7 @@
 	url = https://github.com/popkirby/lightline-iceberg.git
 [submodule "bundle/surround.vim"]
 	path = bundle/surround.vim
-	url = https://tpope.io/vim/surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "easymotion/vim-easymotion"]
 	path = easymotion/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion.git
