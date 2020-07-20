@@ -21,21 +21,17 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
 
-" lightline ステータスバーの装飾
+" lightline
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'airblade/vim-gitgutter'
 
-" iceberg カラースキーム
+" iceberg
 NeoBundle 'cocopon/iceberg.vim'
 
 let g:lightline = { 'colorscheme': 'iceberg' }
 
-" パーレンなどを扱いやすくするplugin
-" yss"でセンテンス全体をクオーテーションで囲む
-" ysiw"で単語をクオーテーションで囲む
-" cs"'でダブルクオーテーションをシングルクオーテーションに変更
-" ds"でダブルクオーテーションを削除
+" surround.vim
 NeoBundle 'surround.vim'
 
 " easy motion
@@ -52,29 +48,26 @@ NeoBundleCheck
 
 "for edit------------------------------------------------------------------
 
-" ｊとｋの入力をESCキーにremap 
+" remap jk to ESC
 inoremap jk <ESC>
 vnoremap jk <ESC> 
 snoremap jk <ESC> 
 cnoremap jk <ESC> 
 
-" normalモードでsとxによる削除をヤンクしない
+" disable to yank by x and s on Normal Mode
 nnoremap x "_x
 nnoremap s "_s
 
-" バッファやレジスタ内で使用する文字コードを設定
+" encoding code in buffer and register
 set encoding=utf-8
 
 " C-X,C-Aを強制的に10進数認識させる
 set nrformats=
 
-" タブの展開するスペースの個数
 set tabstop=4
 
-" インデントを考慮して改行
 set smartindent              
 
-" インデントのスペースの数
 set shiftwidth=4
 
 " 矩形選択をテキストがないところにも適用
@@ -89,26 +82,26 @@ set showmatch
 " yankのクリップボード連携
 set clipboard=unnamed,autoselect
 
-"leader キーをSpaceに
+" set Space key as leader
 let mapleader = " "
+
+" switch paste and unpasete modes 
+set pastetoggle=<F2>
 
 "for appearance------------------------------------------------------------
 
 " シンタックスハイライトをONに
 syntax enable
 
-" ダーク系のカラースキームを使う
-" set background=dark
-
 " カーソルラインを表示
-set cursorline
+" set cursorline
 
 " タブ表示ON
 set showtabline=2
 
 " タブ文字とスペースを可視化
-set list
-set listchars=tab:>-,space:-
+" set list
+" set listchars=tab:>-,space:-
 
 " ステータスライン表示
 set laststatus=2
