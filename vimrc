@@ -25,6 +25,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'airblade/vim-gitgutter'
+NeoBundle 'dense-analysis/ale'
 
 " iceberg カラースキーム
 NeoBundle 'cocopon/iceberg.vim'

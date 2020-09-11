@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/Users/yamanaka/.vim'
+let g:netrw_dirhist_8='/Users/yamanaka/.vim/.git'
+let g:netrw_dirhist_7='/Users/yamanaka/.vim/.git/modules'
+let g:netrw_dirhist_6='/Users/yamanaka/.vim/.git/modules/bundle'
+let g:netrw_dirhist_5='/Users/yamanaka/.vim/.git/modules/bundle/surround.vim'
+let g:netrw_dirhist_4='/Users/yamanaka/.vim/.git/modules/bundle'
+let g:netrw_dirhist_3='/Users/yamanaka/.vim/.git/modules'
+let g:netrw_dirhist_2='/Users/yamanaka/Dropbox/Private/Programming/42tokyo/42cursus/01_ft_printf/pft/src'
 let g:netrw_dirhist_1='/Users/scudelia/.vim/bundle/.neobundle'
